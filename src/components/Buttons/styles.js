@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MainTransparentButton = styled.a`
-    color: #56494C;
+    color: var(--theme-color-choco);
     background-color: transparent;
-    border-color: #56494C;
+    border-color:  var(--theme-color-choco);
 `

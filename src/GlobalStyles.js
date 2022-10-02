@@ -1,5 +1,15 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+
+:root {
+  --theme-color-choco: #56494C;
+}
+
+
 html {
   font-size: 16px;
+ 
 }
 body {
   background-color: #eff3f6;
@@ -15,3 +25,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+`
+export default GlobalStyles;
+
