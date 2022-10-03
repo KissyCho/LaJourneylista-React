@@ -8,6 +8,4 @@ const Home = () => {
         <Header/>
     )
 }
-// const para = document.querySelector('html');
-// const compStyles = window.getComputedStyle(para).getPropertyValue('--theme-color-choco');
 export default Home;

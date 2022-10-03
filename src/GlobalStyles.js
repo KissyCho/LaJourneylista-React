@@ -9,16 +9,24 @@ const GlobalStyles = createGlobalStyle`
 
 html {
   font-size: 16px;
- 
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #eff3f6;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #eff3f6;
+  
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 code {
