@@ -3,7 +3,8 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 
 :root {
-  --theme-color-choco: #56494C;
+  --theme-color-choco: #56494c;
+  --theme-color-cream: #fff7ef
 }
 
 
@@ -21,7 +22,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #eff3f6;
+  background-color: var(--theme-color-cream);
   
 }
 

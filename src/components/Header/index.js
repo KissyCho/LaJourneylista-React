@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <HeaderContainer className='header'>
             <img src={logo} alt='logo' className='header__logo'/>
-            <MainTransparent className="header__button"/>
+            <MainTransparent className='header__button'>Вход</MainTransparent>
         </HeaderContainer>
     )
 }

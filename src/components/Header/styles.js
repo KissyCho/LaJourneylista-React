@@ -21,7 +21,7 @@ export const HeaderContainer = styled.div`
         align-items: center;
         font-weight: 700;
         height: 40px;
-        box-shadow: inset 0 0 0 1px #332885;
+        box-shadow: inset 0 0 0 1px var(--theme-color-choco);
         padding: 0 10px;
     }
 `
