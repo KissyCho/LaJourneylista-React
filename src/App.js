@@ -1,17 +1,16 @@
-import React from 'react';
-import Home from './pages/Home';
-import GlobalStyles from './GlobalStyles';
+import React from 'react'
+import Home from './pages/Home'
+import GlobalStyles from './GlobalStyles'
 
-import './App.css';
+import './App.css'
 
-function App() {
-  
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       <GlobalStyles />
-      <Home/>
+      <Home />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

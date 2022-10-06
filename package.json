@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test-standard": "standard"
   },
   "browserslist": {
     "production": [
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "standard": "^17.0.0"
   }
 }
