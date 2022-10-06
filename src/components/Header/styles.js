@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
     height: 76px;
     background-color: #fff;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 0 35px;
     align-items: center;
     overflow: hidden;
@@ -13,7 +13,6 @@ export const HeaderContainer = styled.div`
         height: 100%;
         width: 206px;
         transform: scale(1.7);
-    
     }
 
     .header__button {
@@ -25,4 +24,3 @@ export const HeaderContainer = styled.div`
         padding: 0 10px;
     }
 `
-

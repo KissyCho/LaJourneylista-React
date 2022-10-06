@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const MainTransparentButton = styled.a`
     color: var(--theme-color-choco);
