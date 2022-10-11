@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test-standard": "standard"
+    "test-standard": "standard",
+    "fix-standard": "standard --fix"
   },
   "browserslist": {
     "production": [
